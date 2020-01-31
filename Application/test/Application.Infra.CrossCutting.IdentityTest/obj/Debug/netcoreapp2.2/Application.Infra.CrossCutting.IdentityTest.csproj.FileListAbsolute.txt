@@ -1,0 +1,14 @@
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\bin\Debug\netcoreapp2.2\nunit.engine.dll
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\bin\Debug\netcoreapp2.2\nunit.engine.api.dll
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\bin\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.deps.json
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\bin\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.runtimeconfig.json
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\bin\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.runtimeconfig.dev.json
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\bin\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.dll
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\bin\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.pdb
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\obj\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.csprojAssemblyReference.cache
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\obj\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.AssemblyInfoInputs.cache
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\obj\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.AssemblyInfo.cs
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\obj\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.dll
+C:\Projetos\Application\Application\test\Application.Infra.CrossCutting.IdentityTest\obj\Debug\netcoreapp2.2\Application.Infra.CrossCutting.IdentityTest.pdb

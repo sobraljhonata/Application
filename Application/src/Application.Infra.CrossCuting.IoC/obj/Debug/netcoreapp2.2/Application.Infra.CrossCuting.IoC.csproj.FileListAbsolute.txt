@@ -1,0 +1,8 @@
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.IoC\bin\Debug\netcoreapp2.2\Application.Infra.CrossCuting.IoC.deps.json
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.IoC\bin\Debug\netcoreapp2.2\Application.Infra.CrossCuting.IoC.dll
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.IoC\obj\Debug\netcoreapp2.2\Application.Infra.CrossCuting.IoC.AssemblyInfoInputs.cache
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.IoC\obj\Debug\netcoreapp2.2\Application.Infra.CrossCuting.IoC.AssemblyInfo.cs
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.IoC\obj\Debug\netcoreapp2.2\Application.Infra.CrossCuting.IoC.csprojAssemblyReference.cache
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.IoC\bin\Debug\netcoreapp2.2\Application.Infra.CrossCuting.IoC.pdb
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.IoC\obj\Debug\netcoreapp2.2\Application.Infra.CrossCuting.IoC.dll
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.IoC\obj\Debug\netcoreapp2.2\Application.Infra.CrossCuting.IoC.pdb
