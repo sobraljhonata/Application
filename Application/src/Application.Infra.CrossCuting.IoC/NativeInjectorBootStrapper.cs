@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Application.Application.Interfaces;
+using Application.Application.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Application.Infra.CrossCuting.IoC
@@ -9,6 +11,9 @@ namespace Application.Infra.CrossCuting.IoC
         {
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             
+            // Application
+            services.AddScoped<IUsuarioServiceApp, UsuarioServiceApp>();
+
             // services.AddScoped<ApplicationDbContext>();
         }
     }

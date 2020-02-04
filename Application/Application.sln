@@ -15,9 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{FCE6B968-A516-4883-9E26-14BE7A47D2D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Infra.CrossCuting.Identity", "src\Application.Infra.CrossCuting.Identity\Application.Infra.CrossCuting.Identity.csproj", "{B9658C6E-1D33-461A-8445-472A34512C02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Infra.CrossCuting.Identity", "src\Application.Infra.CrossCuting.Identity\Application.Infra.CrossCuting.Identity.csproj", "{B9658C6E-1D33-461A-8445-472A34512C02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Infra.CrossCuting.IoC", "src\Application.Infra.CrossCuting.IoC\Application.Infra.CrossCuting.IoC.csproj", "{F237FA10-C25B-43FD-B8E3-53135504EA54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Infra.CrossCuting.IoC", "src\Application.Infra.CrossCuting.IoC\Application.Infra.CrossCuting.IoC.csproj", "{F237FA10-C25B-43FD-B8E3-53135504EA54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{E0925167-DEEF-4C0C-901C-50E09AC3ED8F}"
 EndProject
@@ -25,7 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{7266E897-A5C8-48B1-8DA0-C3BAD5A3FA01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Infra.CrossCutting.IdentityTest", "test\Application.Infra.CrossCutting.IdentityTest\Application.Infra.CrossCutting.IdentityTest.csproj", "{663188D0-E91B-41E7-B093-DCBDC365AA23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Infra.CrossCutting.IdentityTest", "test\Application.Infra.CrossCutting.IdentityTest\Application.Infra.CrossCutting.IdentityTest.csproj", "{663188D0-E91B-41E7-B093-DCBDC365AA23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Application", "src\Application.Application\Application.Application.csproj", "{232BA7F9-F17C-4DF9-BD1A-2BB2F1842C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Api", "src\Application.Api\Application.Api.csproj", "{EF860F7D-881D-4F31-ADD3-217659408C9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{663188D0-E91B-41E7-B093-DCBDC365AA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{663188D0-E91B-41E7-B093-DCBDC365AA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{663188D0-E91B-41E7-B093-DCBDC365AA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232BA7F9-F17C-4DF9-BD1A-2BB2F1842C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232BA7F9-F17C-4DF9-BD1A-2BB2F1842C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232BA7F9-F17C-4DF9-BD1A-2BB2F1842C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232BA7F9-F17C-4DF9-BD1A-2BB2F1842C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF860F7D-881D-4F31-ADD3-217659408C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF860F7D-881D-4F31-ADD3-217659408C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF860F7D-881D-4F31-ADD3-217659408C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF860F7D-881D-4F31-ADD3-217659408C9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +69,8 @@ Global
 		{002F7942-AA34-41E0-B55D-6B7600EC4F74} = {E0925167-DEEF-4C0C-901C-50E09AC3ED8F}
 		{7266E897-A5C8-48B1-8DA0-C3BAD5A3FA01} = {E0925167-DEEF-4C0C-901C-50E09AC3ED8F}
 		{663188D0-E91B-41E7-B093-DCBDC365AA23} = {7266E897-A5C8-48B1-8DA0-C3BAD5A3FA01}
+		{232BA7F9-F17C-4DF9-BD1A-2BB2F1842C21} = {73B28775-6DF5-4BEF-AFA4-67E0D93C69D9}
+		{EF860F7D-881D-4F31-ADD3-217659408C9E} = {F5991EBD-2F21-42A2-BB30-B2E7981F11B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56C29BFF-6847-4444-8872-ADBCDE7F4819}

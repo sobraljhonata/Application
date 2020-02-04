@@ -1,0 +1,9 @@
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.Identity\bin\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.deps.json
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.Identity\bin\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.runtimeconfig.json
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.Identity\bin\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.runtimeconfig.dev.json
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.Identity\bin\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.dll
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.Identity\bin\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.pdb
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.Identity\obj\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.AssemblyInfoInputs.cache
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.Identity\obj\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.AssemblyInfo.cs
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.Identity\obj\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.dll
+C:\Projetos\Application\Application\src\Application.Infra.CrossCuting.Identity\obj\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.pdb
