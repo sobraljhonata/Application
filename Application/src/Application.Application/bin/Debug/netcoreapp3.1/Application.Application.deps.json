@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Application.Application/1.0.0": {
         "dependencies": {
+          "Application.Domain": "1.0.0",
           "Application.Infra.CrossCuting.Identity": "1.0.0"
         },
         "runtime": {
@@ -1994,6 +1995,19 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
+      "Application.Domain/1.0.0": {
+        "dependencies": {
+          "Application.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Application.Domain.dll": {}
+        }
+      },
+      "Application.Domain.Core/1.0.0": {
+        "runtime": {
+          "Application.Domain.Core.dll": {}
+        }
+      },
       "Application.Infra.CrossCuting.Identity/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.1",
@@ -3488,6 +3502,16 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Application.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Application.Infra.CrossCuting.Identity/1.0.0": {
       "type": "project",

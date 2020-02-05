@@ -9,3 +9,7 @@ C:\Projetos\Application\Application\src\Application.Application\obj\Debug\netcor
 C:\Projetos\Application\Application\src\Application.Application\bin\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.dll
 C:\Projetos\Application\Application\src\Application.Application\bin\Debug\netcoreapp3.1\Application.Infra.CrossCuting.Identity.pdb
 C:\Projetos\Application\Application\src\Application.Application\obj\Debug\netcoreapp3.1\Application.Application.csproj.CopyComplete
+C:\Projetos\Application\Application\src\Application.Application\bin\Debug\netcoreapp3.1\Application.Domain.Core.dll
+C:\Projetos\Application\Application\src\Application.Application\bin\Debug\netcoreapp3.1\Application.Domain.dll
+C:\Projetos\Application\Application\src\Application.Application\bin\Debug\netcoreapp3.1\Application.Domain.pdb
+C:\Projetos\Application\Application\src\Application.Application\bin\Debug\netcoreapp3.1\Application.Domain.Core.pdb

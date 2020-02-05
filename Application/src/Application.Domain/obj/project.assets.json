@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Application.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Application.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Application.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Application.Domain.Core/Application.Domain.Core.csproj",
+      "msbuildProject": "../Application.Domain.Core/Application.Domain.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Application.Domain.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DEVRF03\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projetos\\Application\\Application\\src\\Application.Domain\\Application.Domain.csproj",
+      "projectName": "Application.Domain",
+      "projectPath": "C:\\Projetos\\Application\\Application\\src\\Application.Domain\\Application.Domain.csproj",
+      "packagesPath": "C:\\Users\\DEVRF03\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\Application\\Application\\src\\Application.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DEVRF03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Projetos\\Application\\Application\\src\\Application.Domain.Core\\Application.Domain.Core.csproj": {
+              "projectPath": "C:\\Projetos\\Application\\Application\\src\\Application.Domain.Core\\Application.Domain.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

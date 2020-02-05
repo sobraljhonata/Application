@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Helper\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\Application.Domain\Application.Domain.csproj" />
     <ProjectReference Include="..\Application.Infra.CrossCuting.Identity\Application.Infra.CrossCuting.Identity.csproj" />
   </ItemGroup>
 

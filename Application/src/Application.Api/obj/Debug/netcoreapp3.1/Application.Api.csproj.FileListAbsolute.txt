@@ -89,3 +89,9 @@ C:\Projetos\Application\Application\src\Application.Api\bin\Debug\netcoreapp3.1\
 C:\Projetos\Application\Application\src\Application.Api\bin\Debug\netcoreapp3.1\Application.Application.pdb
 C:\Projetos\Application\Application\src\Application.Api\obj\Debug\netcoreapp3.1\Application.Api.dll
 C:\Projetos\Application\Application\src\Application.Api\obj\Debug\netcoreapp3.1\Application.Api.pdb
+C:\Projetos\Application\Application\src\Application.Api\bin\Debug\netcoreapp3.1\Application.Domain.Core.dll
+C:\Projetos\Application\Application\src\Application.Api\bin\Debug\netcoreapp3.1\Application.Domain.dll
+C:\Projetos\Application\Application\src\Application.Api\bin\Debug\netcoreapp3.1\Application.Domain.pdb
+C:\Projetos\Application\Application\src\Application.Api\bin\Debug\netcoreapp3.1\Application.Domain.Core.pdb
+C:\Projetos\Application\Application\src\Application.Api\bin\Debug\netcoreapp3.1\Application.Infra.Data.dll
+C:\Projetos\Application\Application\src\Application.Api\bin\Debug\netcoreapp3.1\Application.Infra.Data.pdb

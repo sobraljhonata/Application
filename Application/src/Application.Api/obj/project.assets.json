@@ -3230,6 +3230,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Application.Domain": "1.0.0",
           "Application.Infra.CrossCuting.Identity": "1.0.0"
         },
         "compile": {
@@ -3241,6 +3242,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Application.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Application.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Domain.dll": {}
+        }
+      },
+      "Application.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Application.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Domain.Core.dll": {}
+        }
       },
       "Application.Infra.CrossCuting.Identity/1.0.0": {
         "type": "project",
@@ -3272,6 +3296,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Application.Application": "1.0.0",
+          "Application.Infra.Data": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.1"
@@ -3281,6 +3306,23 @@
         },
         "runtime": {
           "bin/placeholder/Application.Infra.CrossCuting.IoC.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Application.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Application.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Application.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Infra.Data.dll": {}
         }
       }
     }
@@ -9786,6 +9828,16 @@
       "path": "../Application.Application/Application.Application.csproj",
       "msbuildProject": "../Application.Application/Application.Application.csproj"
     },
+    "Application.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Application.Domain/Application.Domain.csproj",
+      "msbuildProject": "../Application.Domain/Application.Domain.csproj"
+    },
+    "Application.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Application.Domain.Core/Application.Domain.Core.csproj",
+      "msbuildProject": "../Application.Domain.Core/Application.Domain.Core.csproj"
+    },
     "Application.Infra.CrossCuting.Identity/1.0.0": {
       "type": "project",
       "path": "../Application.Infra.CrossCuting.Identity/Application.Infra.CrossCuting.Identity.csproj",
@@ -9795,6 +9847,11 @@
       "type": "project",
       "path": "../Application.Infra.CrossCuting.IoC/Application.Infra.CrossCuting.IoC.csproj",
       "msbuildProject": "../Application.Infra.CrossCuting.IoC/Application.Infra.CrossCuting.IoC.csproj"
+    },
+    "Application.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../Application.Infra.Data/Application.Infra.Data.csproj",
+      "msbuildProject": "../Application.Infra.Data/Application.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Application.Application.Dto.Permissionamento;
-using Application.Application.Dto.Usuario;
+using Application.Application.Dto.UsuariosDto;
 using Application.Infra.CrossCuting.Identity.Models.AccountViewModels;
 
 namespace Application.Application.Interfaces
@@ -12,7 +12,7 @@ namespace Application.Application.Interfaces
         List<UsuarioDto> ListarUsuarios();
         UsuarioDto ObterUsuarioPorId(Guid id);
         Task<UsuarioDto> AdicionarUsuario(RegisterViewModel usuario);
-        Task<string> Login(LoginViewModel usuario);
+        Task<string> Login(LoginViewModel model);
         Task<UsuarioDto> EditarUsuario(RegisterViewModel usuario);
         Task<bool> ExcluirUsuario(Guid id);
         List<CargoDto> ObterCargos();

@@ -3175,6 +3175,29 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "Application.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Application.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Domain.dll": {}
+        }
+      },
+      "Application.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Application.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Domain.Core.dll": {}
+        }
+      },
       "Application.Infra.CrossCuting.Identity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -9636,6 +9659,16 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "Application.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Application.Domain/Application.Domain.csproj",
+      "msbuildProject": "../Application.Domain/Application.Domain.csproj"
+    },
+    "Application.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Application.Domain.Core/Application.Domain.Core.csproj",
+      "msbuildProject": "../Application.Domain.Core/Application.Domain.Core.csproj"
+    },
     "Application.Infra.CrossCuting.Identity/1.0.0": {
       "type": "project",
       "path": "../Application.Infra.CrossCuting.Identity/Application.Infra.CrossCuting.Identity.csproj",
@@ -9644,6 +9677,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Application.Domain >= 1.0.0",
       "Application.Infra.CrossCuting.Identity >= 1.0.0"
     ]
   },
@@ -9680,6 +9714,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Projetos\\Application\\Application\\src\\Application.Domain\\Application.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\Application\\Application\\src\\Application.Domain\\Application.Domain.csproj"
+            },
             "C:\\Projetos\\Application\\Application\\src\\Application.Infra.CrossCuting.Identity\\Application.Infra.CrossCuting.Identity.csproj": {
               "projectPath": "C:\\Projetos\\Application\\Application\\src\\Application.Infra.CrossCuting.Identity\\Application.Infra.CrossCuting.Identity.csproj"
             }

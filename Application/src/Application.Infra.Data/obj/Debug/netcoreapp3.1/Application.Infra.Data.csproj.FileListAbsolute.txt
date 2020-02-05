@@ -1,0 +1,13 @@
+C:\Projetos\Application\Application\src\Application.Infra.Data\bin\Debug\netcoreapp3.1\Application.Infra.Data.deps.json
+C:\Projetos\Application\Application\src\Application.Infra.Data\bin\Debug\netcoreapp3.1\Application.Infra.Data.dll
+C:\Projetos\Application\Application\src\Application.Infra.Data\bin\Debug\netcoreapp3.1\Application.Domain.Core.dll
+C:\Projetos\Application\Application\src\Application.Infra.Data\bin\Debug\netcoreapp3.1\Application.Domain.dll
+C:\Projetos\Application\Application\src\Application.Infra.Data\bin\Debug\netcoreapp3.1\Application.Domain.pdb
+C:\Projetos\Application\Application\src\Application.Infra.Data\bin\Debug\netcoreapp3.1\Application.Domain.Core.pdb
+C:\Projetos\Application\Application\src\Application.Infra.Data\obj\Debug\netcoreapp3.1\Application.Infra.Data.csprojAssemblyReference.cache
+C:\Projetos\Application\Application\src\Application.Infra.Data\obj\Debug\netcoreapp3.1\Application.Infra.Data.AssemblyInfoInputs.cache
+C:\Projetos\Application\Application\src\Application.Infra.Data\obj\Debug\netcoreapp3.1\Application.Infra.Data.AssemblyInfo.cs
+C:\Projetos\Application\Application\src\Application.Infra.Data\obj\Debug\netcoreapp3.1\Application.Infra.Data.csproj.CopyComplete
+C:\Projetos\Application\Application\src\Application.Infra.Data\bin\Debug\netcoreapp3.1\Application.Infra.Data.pdb
+C:\Projetos\Application\Application\src\Application.Infra.Data\obj\Debug\netcoreapp3.1\Application.Infra.Data.dll
+C:\Projetos\Application\Application\src\Application.Infra.Data\obj\Debug\netcoreapp3.1\Application.Infra.Data.pdb

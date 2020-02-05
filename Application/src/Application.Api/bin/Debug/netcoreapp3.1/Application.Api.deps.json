@@ -2482,6 +2482,7 @@
       },
       "Application.Application/1.0.0": {
         "dependencies": {
+          "Application.Domain": "1.0.0",
           "Application.Infra.CrossCuting.Identity": "1.0.0"
         },
         "runtime": {
@@ -2489,6 +2490,25 @@
         },
         "compile": {
           "Application.Application.dll": {}
+        }
+      },
+      "Application.Domain/1.0.0": {
+        "dependencies": {
+          "Application.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Application.Domain.dll": {}
+        },
+        "compile": {
+          "Application.Domain.dll": {}
+        }
+      },
+      "Application.Domain.Core/1.0.0": {
+        "runtime": {
+          "Application.Domain.Core.dll": {}
+        },
+        "compile": {
+          "Application.Domain.Core.dll": {}
         }
       },
       "Application.Infra.CrossCuting.Identity/1.0.0": {
@@ -2514,6 +2534,7 @@
       "Application.Infra.CrossCuting.IoC/1.0.0": {
         "dependencies": {
           "Application.Application": "1.0.0",
+          "Application.Infra.Data": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.1"
@@ -2523,6 +2544,18 @@
         },
         "compile": {
           "Application.Infra.CrossCuting.IoC.dll": {}
+        }
+      },
+      "Application.Infra.Data/1.0.0": {
+        "dependencies": {
+          "Application.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.1"
+        },
+        "runtime": {
+          "Application.Infra.Data.dll": {}
+        },
+        "compile": {
+          "Application.Infra.Data.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery.Reference/3.1.0.0": {
@@ -5596,12 +5629,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Application.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Application.Infra.CrossCuting.Identity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Application.Infra.CrossCuting.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application.Infra.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
